@@ -1,0 +1,9 @@
+<settings>
+  <servers>
+    <server>
+      <id>maven.jenkins-ci.org</id>
+      <username>praqma</username>
+      <password>${env.RELEASE_PW}</password>
+    </server>	
+  </servers>
+</settings>
